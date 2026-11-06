@@ -1,0 +1,17 @@
+{
+  "windows": {
+    "калькулятор": ["calc.exe"],
+    "блокнот": ["notepad.exe"],
+    "paint": ["mspaint.exe"]
+    
+  },
+  "darwin": {
+    "калькулятор": ["open", "-a", "Calculator"],
+    "заметки": ["open", "-a", "Notes"],
+    "календарь": ["open", "-a", "Calendar"]
+  },
+  "linux": {
+    "калькулятор": ["gnome-calculator"],
+    "текстовый редактор": ["gedit"]
+  }
+}
